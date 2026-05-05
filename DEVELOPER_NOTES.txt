@@ -1,0 +1,13 @@
+LOGIC CIRCUIT ANALYZER - TECHNICAL SPECIFICATIONS
+
+Implementation Details: The application implements logic circuits as a Sum of Minterms using HashMap and ArrayList data structures for efficient analysis.
+
+NOT Operator Formatting: The project specifically recognizes the special apostrophe character (’) for NOT operations, as provided in the sample boole.txt. Please note that the standard apostrophe (') is not used in the current parser.
+
+Input Parsing & Markers: The parser expects numerical markers (e.g., 1, 2, 3...) within the expression (e.g., F(1)=(2)A(3)+(4)BC(5)), separated by space characters. The logic is strictly optimized to handle the specific formatting provided in the project's sample input files.
+
+Known Limitations: The current version is fine-tuned for the provided boole.txt format. Simplified functions like F=A+B+C without the required markers and spacing are not supported in this specific implementation.
+
+Solver & Validation: The solver accurately computes results for all tested functions. It includes a robust validation mechanism: if any value other than 0 or 1 is entered, the system prompts "Invalid input! Try again." to ensure data integrity.
+
+Developer: Murat Dahi
