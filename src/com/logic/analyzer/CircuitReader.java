@@ -1,4 +1,10 @@
 package com.logic.analyzer;
+/**
+ * Main entry point for the LogicFlow-Analyzer project.
+ * Handles the orchestration of circuit reading and solving.
+ * 
+ * @author Murat Dahi
+ */
 
 import java.util.Scanner;
 import java.io.File;

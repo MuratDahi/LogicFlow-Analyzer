@@ -1,4 +1,10 @@
 package com.logic.analyzer;
+/**
+ * Manages user inputs and computes the final logical result
+ * of the parsed Boolean expression.
+ * 
+ * @author Murat Dahi
+ */
 
 import java.util.ArrayList;
 import java.util.HashMap;
